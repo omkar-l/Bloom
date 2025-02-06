@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import BloomingFlower from "./components/BloomingFlower";
 import Navbar from "./components/Navbar";
 import { useState } from "react"; 
@@ -19,11 +19,14 @@ export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <Router>
+    <>
+    {/* // <Router> */}
       <Navbar isMenuOpen={isMenuOpen}/>
-      <Routes>
-        <Route path="/" element={<BloomingFlower setIsMenuOpen={setIsMenuOpen}/>} />
-      </Routes>
-    </Router>
+      {/* <Routes> */}
+        {/* <Route path="/" element={<BloomingFlower setIsMenuOpen={setIsMenuOpen}/>} /> */}
+        <BloomingFlower setIsMenuOpen={setIsMenuOpen}/>
+      {/* </Routes> */}
+    {/* </Router> */}
+    </>
   );
 }

@@ -33,8 +33,8 @@ const Navbar = ({ isMenuOpen }) => {
         transition={{ duration: 1, ease: "easeInOut" }}
         style={{ position: "fixed", zIndex: 1050 }}
       >
-        {/* <img src="logo.jpg" alt="Logo" className="logo-img" /> */}
-        <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="Logo" className="logo-img" />
+        <img src="logo.jpg" alt="Logo" className="logo-img" />
+        {/* <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="Logo" className="logo-img" /> */}
         
       </motion.div>
 
