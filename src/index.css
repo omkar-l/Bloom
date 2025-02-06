@@ -1,0 +1,14 @@
+html{
+  background-color: black;
+}
+body {
+  background-color: black;
+}
+
+@media (max-width: 768px) {
+  .d-flex.mt-3.justify-content-center {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
