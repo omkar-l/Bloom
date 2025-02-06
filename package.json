@@ -1,7 +1,7 @@
 {
   "homepage": "https://omkar-l.github.io/Bloom",
   "name": "animation-web",
-  "version": "0.1.0",
+  "version": "0.1.0", 
   "private": true,
   "dependencies": {
     "@shadcn/ui": "^0.0.4",
@@ -15,6 +15,10 @@
     "react-router-dom": "^7.1.5",
     "react-scripts": "5.0.1"
   },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/omkar-l/Bloom.git"
+},
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
